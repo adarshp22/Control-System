@@ -4,8 +4,8 @@
 
 This project presents a comprehensive study of **feedback control system design** for a three non-interacting tanks in series system. The work encompasses both **PID optimization** and **classical PI tuning methods comparison** for the same process, demonstrating the evolution from numerical optimization to classical control theory validation.
 
-**Student:** Aadityaamlan Panda  
-**Roll Number:** 220007  
+**Student:** Adarsh Pal  
+**Roll Number:** 220054
 **Course:** CHE-381 - Process Dynamics and Control  
 
 ***
@@ -195,3 +195,4 @@ IAE = trapz(time,abs(errors));
 ***
 
 *This project showcases the complete control system design cycle from classical tuning methods to advanced numerical optimization, providing valuable insights into modern process control engineering.*
+
