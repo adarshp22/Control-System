@@ -53,7 +53,7 @@ H₃'(s)/F₀'(s) = K/[(τ₁s+1)(τ₂s+1)(τ₃s+1)]
 ## 📊 **PID Optimization Results**
 
 ### **Performance Criterion Selection:**
-**Roll Number 220007 → 7 ÷ 4 = Remainder 3 → ITAE**
+**Roll Number 220054 → 7 ÷ 4 = Remainder 3 → ITAE**
 *Note: Based on submitted files, IAE was actually used*
 
 ### **Optimized PID Parameters:**
@@ -135,7 +135,7 @@ H₃'(s)/F₀'(s) = K/[(τ₁s+1)(τ₂s+1)(τ₃s+1)]
 Kc = 15;
 tau_i = 191.822;
 tau_d = 2;
-sim('Lab_5_CHE381_220007.slx',1000);
+sim('Lab_5_CHE381_220054.slx',1000);
 IAE = trapz(time,abs(errors));
 ```
 
@@ -195,4 +195,5 @@ IAE = trapz(time,abs(errors));
 ***
 
 *This project showcases the complete control system design cycle from classical tuning methods to advanced numerical optimization, providing valuable insights into modern process control engineering.*
+
 
